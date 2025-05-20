@@ -63,8 +63,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function enviarMensaje(mensaje) {
-  const urlGPT = "http://localhost/api-gpt-php/endpoints/chat.php";
-  const urlIOT = "http://localhost/iot-api-php/controllers/AddIotDevice.php";
+  const urlGPT = "http://44.200.62.176/api-gpt-php/endpoints/chat.php";
+  const urlIOT = "http://44.200.62.176/iot-api-php/controllers/AddIotDevice.php";
 
   const datos = { message: mensaje };
   const outputText = document.getElementById("outputText");
